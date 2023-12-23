@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/rajdip" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="150dp" >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:text="@string/android_is_a_complete_set_of_software_for_mobile_devices_such_as_tablet_computers_notebooks_smartphones_electronic_book_readers_set_top_boxes_etc_it_contains_a_linux_based_operating_system_middleware_and_key_mobile_applications_android_was_developed_by_the_open_handset_alliance_led_by_google_and_other_companies_android_offers_a_unified_approach_to_application_development_for_mobile_devices_which_means_developers_need_only_develop_for_android_and_their_applications_should_be_able_to_run_on_different_devices_powered_by_android_the_first_beta_version_of_the_android_software_development_kit_sdk_was_released_by_google_in_2007_where_as_the_first_commercial_version_android_1_0_was_released_in_september_2008_on_june_27_2012_at_the_google_i_o_conference_google_announced_the_next_android_version_4_1_jelly_bean"
+            />
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageVie1"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/rajdip" />
+</LinearLayout>
